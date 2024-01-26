@@ -1,0 +1,19 @@
+.need-want-div {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+
+    text-align: center;
+}
+
+.need-want-div li {
+    text-align: left;
+    width: fit-content;
+}
+
+.need-want-div ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}

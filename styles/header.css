@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Doodle+Shadow&family=Single+Day&family=VT323&display=swap');
+
+body {
+    margin-top: 150px;
+}
+
+#header {
+    width: 100vw;
+    height: 75px;
+    margin-top: -150px;
+    padding: 10px;
+    position: fixed;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    box-shadow: 1px 2px 25px 13px rgb(0, 0, 0);
+    background-color: rgb(0, 190, 171);
+}
+
+#logo {
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'VT323';
+    color: white;
+    text-shadow: none;
+    font-size: 2em;
+}
+
+.header-link {
+    font-family: 'Rubik Doodle Shadow';
+    color: rgb(93, 0, 255);
+    font-size: 1.6em;
+    font-weight: bolder;
+    margin: 15px;
+    height: fit-content;
+}
+
+.seventyvw {
+    width: 70vw;
+}
+
+.fourem {
+    font-size: 4em;
+}

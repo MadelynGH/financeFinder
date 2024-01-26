@@ -1,0 +1,9 @@
+COMPLETED - 1. Allow user to add their needs and wants, and store it in localStorage.
+COMPLETED - 2. Make it display the needs and wants in two separate divs.
+COMPLETED - 3. Make each need and want have a cost, and have it add up the total.
+COMPLETED - 4. Combine needs and wants into a debt div.
+COMPLETED - 5. Repeat steps 1-4, but replace needs with salary(s), wants with asset(s), and debt being income.
+COMPLETED - 6. Add statistics.
+COMPLETED - 7. Integrate simple AI, where it checks the income and debt, and gives tips based on it, using if and else ifs.
+COMPLETED - 8. Style it.
+COMPLETED - 9. Add an About page.

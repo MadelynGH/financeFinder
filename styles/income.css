@@ -1,0 +1,25 @@
+.debt-income-div {
+    border: 1px solid rgb(0, 108, 106);
+    width: 30vw;
+    margin: 1px;
+}
+
+.salary-asset-div {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+
+    text-align: center;
+}
+
+.salary-asset-div li {
+    text-align: left;
+    width: fit-content;
+}
+
+.salary-asset-div ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}

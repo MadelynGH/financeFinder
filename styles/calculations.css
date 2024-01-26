@@ -1,0 +1,19 @@
+.calculation-div {
+    border: 1px solid rgb(0, 108, 106);
+    width: 40vw;
+    margin: 1px;
+}
+
+#calculations-display {
+    font-weight: 400;
+}
+
+#notes-display {
+    font-family: 'Caveat';
+    font-weight: 300;
+}
+
+#calculations-display, #notes-display {
+    font-size: 2.4em;
+    margin: 20px;
+}
