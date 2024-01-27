@@ -1,0 +1,9 @@
+object {
+    width: 50vw;
+    height: 50vh;
+}
+
+.main-heading {
+    border-bottom: 8px solid blue;
+    color: blue;
+}
