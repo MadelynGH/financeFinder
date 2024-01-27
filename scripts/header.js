@@ -7,6 +7,7 @@ document.body.innerHTML =
 </a>
 <a href="/" class="header-link">Home</a>
 <a href="/about" class="header-link">About</a>
+<a href="/research" class="header-link">Research</a>
 <a href="/Finance Finder Presentation.pdf" class="header-link" target="_blank">Presentation</a>
 </div>`
 + document.body.innerHTML;
