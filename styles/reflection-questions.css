@@ -1,0 +1,17 @@
+.question {
+    font-style: italic;
+    color: #d558ab;
+}
+
+.answer {
+    color: #27278b;
+}
+
+.question, .answer {
+    font-family: 'Nunito';
+    font-weight: 500;
+}
+
+.question b, .answer b {
+    font-weight: 700;
+}

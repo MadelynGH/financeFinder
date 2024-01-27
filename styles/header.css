@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Doodle+Shadow&family=Single+Day&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900;1000&family=Rubik+Doodle+Shadow&family=Single+Day&family=VT323&display=swap');
 
 body {
     margin-top: 150px;
@@ -33,18 +33,25 @@ body {
 .header-link {
     font-family: 'Rubik Doodle Shadow';
     color: rgb(93, 0, 255);
+    border-bottom: 4px solid transparent;
     font-size: 1.6em;
     font-weight: bolder;
     margin: 15px;
     height: fit-content;
 }
 
+.header-link:hover {
+    transition-duration: .4s;
+    border-bottom: 4px solid rgb(93, 0, 255);
+}
+
 .seventyvw {
     width: 70vw;
 }
 
-.fourem {
+.main-heading {
     font-size: 4em;
+    margin-top: 0;
 }
 
 .yes-links a {
