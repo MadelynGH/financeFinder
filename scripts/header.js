@@ -1,5 +1,5 @@
 document.head.innerHTML = document.head.innerHTML + `<link rel="stylesheet" type="text/css" href="/styles/header.css" />
-<link rel="icon" type="image/x-icon" href="/images/favicon.png" />`;
+<link rel="icon" type="image/x-icon" href="/favicon.png" />`;
 
 document.body.innerHTML =
 `<div id="header">
