@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900;1000&family=Rubik+Doodle+Shadow&family=Single+Day&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900;1000&family=Rubik+Doodle+Shadow&family=Single+Day&family=VT323&display=swap&family=Cabin+Sketch:wght@700&display=swap');
 
 body {
     margin-top: 150px;
@@ -61,8 +61,8 @@ input[type="submit"]:hover {
     margin-left: 20px;
     font-family: 'VT323';
     color: rgb(0, 190, 171);
-    text-shadow: none;
     font-size: 2em;
+    user-select: none;
 }
 
 .header-link {
@@ -87,6 +87,7 @@ input[type="submit"]:hover {
 .main-heading {
     font-size: 4em;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .yes-links a {
@@ -97,4 +98,17 @@ input[type="submit"]:hover {
 .yes-links a:active {
     text-decoration: underline;
     color: purple;
+}
+
+.secondary-logo {
+    font-family: 'VT323';
+    color: rgb(0, 190, 171);
+    user-select: none;
+}
+
+.outline {
+    border: 2px solid rgb(0, 190, 171);
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

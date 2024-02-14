@@ -4,13 +4,15 @@ document.head.innerHTML = document.head.innerHTML + `<link rel="stylesheet" type
 document.body.innerHTML =
 `<div id="header">
 <a href="/">
-    <h3 id="logo">FINANCE <br /> FINDER</h3>
+    <h3 id="logo">FINANCE<br>FINDER</h3>
 </a>
 <a href="/" class="header-link" id="home-link">Home</a>
-<a href="/about" class="header-link" id="about-link">About</a>
+<a href="/desktop" class="header-link" id="desktop-link">Desktop</a>
+<a href="/mobile" class="header-link" id="mobile-link">Mobile</a>
 <a href="/research" class="header-link" id="research-link">Research</a>
+<a href="/process" class="header-link" id="process-link">Process</a>
 <a href="/reflection-questions" class="header-link" id="reflection-questions-link">Reflection Questions</a>
-<a href="/presentation" class="header-link" id="presentation-link">Presentation</a>
+<a href="/about" class="header-link" id="about-link">About</a>
 </div>`
 + document.body.innerHTML;
 

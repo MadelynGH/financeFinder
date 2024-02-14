@@ -1,0 +1,8 @@
+.sub-heading {
+    font-family: 'Cabin Sketch';
+    font-size: 3em;
+    margin: 0;
+    color: rgb(117, 0, 206);
+    background-color: rgb(0, 255, 229);
+    background-clip: text;
+}

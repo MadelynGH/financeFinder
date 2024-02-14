@@ -67,7 +67,7 @@ window.addEventListener("DOMContentLoaded", function() {
         totalOneTimeCost = 0;
     }
 
-    totalSalaryCost.innerHTML = "Total<br />Annually: $" + totalAnnualCost.toLocaleString("en-us") + "/year<br />One time: $" + totalOneTimeCost.toLocaleString("en-us");
+    totalSalaryCost.innerHTML = "Total<br>Annually: $" + totalAnnualCost.toLocaleString("en-us") + "/year<br>One time: $" + totalOneTimeCost.toLocaleString("en-us");
     localStorage.setItem("salarytotalAnnualCost", totalAnnualCost);
     localStorage.setItem("salarytotalOneTimeCost", totalOneTimeCost);
 
