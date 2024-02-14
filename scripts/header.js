@@ -16,4 +16,4 @@ document.body.innerHTML =
 </div>`
 + document.body.innerHTML;
 
-document.getElementById(document.currentScript.getAttribute("link")).style.borderBottom = "4px solid rgb(93, 0, 255)";
+document.getElementById(document.currentScript.getAttribute("link")).style.borderBottom = "3.5px solid rgb(93, 0, 255)";

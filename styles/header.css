@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900;1000&family=Rubik+Doodle+Shadow&family=Single+Day&family=VT323&display=swap&family=Cabin+Sketch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900;1000&family=Lexend&family=Single+Day&family=VT323&display=swap&family=Cabin+Sketch:wght@700&display=swap');
 
 body {
     margin-top: 150px;
@@ -66,18 +66,18 @@ input[type="submit"]:hover {
 }
 
 .header-link {
-    font-family: 'Rubik Doodle Shadow';
+    font-family: 'Lexend';
     color: rgb(93, 0, 255);
     border-bottom: 4px solid transparent;
     font-size: 1.6em;
-    font-weight: bolder;
+    font-weight: 100;
     margin: 15px;
     height: fit-content;
 }
 
 .header-link:hover {
     transition-duration: .4s;
-    border-bottom: 4px solid rgb(93, 0, 255);
+    border-bottom: 3.5px solid rgb(93, 0, 255);
 }
 
 .seventyvw {
