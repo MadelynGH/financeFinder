@@ -2,6 +2,7 @@
 
 body {
     margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 img {
@@ -85,6 +86,10 @@ input[type="submit"]:hover {
 .header-link:hover {
     transition-duration: .4s;
     border-bottom: 3.5px solid rgb(93, 0, 255);
+}
+
+#footer {
+    height: 500px;
 }
 
 .seventyvw {

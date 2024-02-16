@@ -15,7 +15,6 @@ document.body.innerHTML =
 <a href="/process" class="header-link" id="process-link">Process</a>
 <a href="/reflection-questions" class="header-link" id="reflection-questions-link">Reflection Questions</a>
 <a href="/about" class="header-link" id="about-link">About</a>
-</div>`
-+ document.body.innerHTML;
+</div>` + document.body.innerHTML;
 
 document.getElementById(document.currentScript.getAttribute("link")).style.borderBottom = "3.5px solid rgb(93, 0, 255)";

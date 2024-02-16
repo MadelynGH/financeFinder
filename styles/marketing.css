@@ -33,7 +33,12 @@ body {
     float: left;
 }
 
-#hero-image {
-    height: 70vh;
+#hero-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     float: right;
+    height: 75vh;
+
+    /* The hover animation is in the JavaScript because I need to dynamically change the height of the container. */
 }
