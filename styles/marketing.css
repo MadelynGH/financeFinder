@@ -1,0 +1,39 @@
+/* General */
+::selection {
+    background-color: #6f9dff;
+    color:rgb(93, 0, 255);
+}
+
+body {
+    background-color: rgb(192, 255, 255);
+}
+
+/* Hero */
+#hero {
+    text-align: left;
+    width: 100vw;
+    height: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#hero-text {
+    color: rgb(0, 190, 171);
+    font-size: 5em;
+    font-family: 'MuseoModerno';
+}
+
+#hero-sub {
+    color: rgb(0, 55, 97);
+    font-size: 1.8em;
+}
+
+#hero-text, #hero-sub {
+    width: fit-content;
+    float: left;
+}
+
+#hero-image {
+    height: 70vh;
+    float: right;
+}

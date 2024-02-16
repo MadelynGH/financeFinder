@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900;1000&family=Lexend&family=Single+Day&family=VT323&display=swap&family=Cabin+Sketch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900;1000&family=Lexend&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=VT323&display=swap&family=Cabin+Sketch:wght@700&display=swap');
 
 body {
     margin-top: 150px;
@@ -6,11 +6,11 @@ body {
 
 img {
     max-width: 100%;
-    display: block;
+    user-select: none;
 }
 
 ::selection {
-    background-color: rgb(255, 177, 246);
+    background-color: rgb(234, 166, 255);
 }
 
 input[type="range"] {
@@ -64,7 +64,9 @@ input[type="submit"]:hover {
     margin: 0;
     margin-right: 20px;
     margin-left: 20px;
-    font-family: 'VT323';
+    font-family: 'MuseoModerno';
+    text-transform: lowercase;
+    line-height: 1;
     color: rgb(0, 190, 171);
     font-size: 2em;
     user-select: none;
@@ -106,7 +108,9 @@ input[type="submit"]:hover {
 }
 
 .secondary-logo {
-    font-family: 'VT323';
+    font-family: 'MuseoModerno';
+    text-transform: lowercase;
+    line-height: 1;
     color: rgb(0, 190, 171);
     user-select: none;
 }
