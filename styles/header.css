@@ -10,6 +10,11 @@ img {
     user-select: none;
 }
 
+p, ul {
+    text-align: left;
+    line-height: 1.5;
+}
+
 ::selection {
     background-color: rgb(234, 166, 255);
 }
@@ -80,8 +85,9 @@ input[type="submit"]:hover {
 
 .header-link {
     font-family: 'Lexend';
-    color: rgb(93, 0, 255);
-    border-bottom: 3.5px solid transparent;
+    color: rgb(0, 55, 97);
+    padding: 5px;
+    border-radius: 10px;
     font-size: 1.6em;
     font-weight: 100;
     margin: 15px;
@@ -89,8 +95,7 @@ input[type="submit"]:hover {
 }
 
 .header-link:hover {
-    transition-duration: .4s;
-    border-bottom: 3.5px solid rgb(93, 0, 255);
+    background-color: rgb(245, 245, 245);
 }
 
 #footer {

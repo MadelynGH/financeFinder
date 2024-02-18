@@ -17,7 +17,7 @@ document.body.innerHTML =
 <a href="/about" class="header-link" id="about-link">About</a>
 </div>` + document.body.innerHTML;
 
-document.getElementById(document.currentScript.getAttribute("link")).style.borderBottom = "3.5px solid rgb(93, 0, 255)";
+document.getElementById(document.currentScript.getAttribute("link")).style.color = "rgb(204, 0, 163)";
 
 document.getElementById("header").style.transitionDuration = "0s"
 document.getElementById("header").addEventListener("mouseleave", function() {
