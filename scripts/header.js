@@ -17,4 +17,7 @@ document.body.innerHTML =
 <a href="/about" class="header-link" id="about-link">About</a>
 </div>` + document.body.innerHTML;
 
-document.getElementById(document.currentScript.getAttribute("link")).style.borderBottom = "3.5px solid rgb(93, 0, 255)";
+document.getElementById("header").addEventListener("mouseleave", function() {
+    document.getElementById("header").style.transitionDuration = ".4s";
+    setTimeout(document.getElementById("header").style.transitionDuration = "0", 400);
+});

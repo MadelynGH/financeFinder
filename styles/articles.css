@@ -3,6 +3,10 @@ p, ul {
     line-height: 1.5;
 }
 
+a:hover {
+    text-decoration: none!important;
+}
+
 .sub-heading {
     font-family: 'Cabin Sketch';
     font-size: 3em;
