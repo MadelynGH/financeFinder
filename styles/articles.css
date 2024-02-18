@@ -1,5 +1,6 @@
-p {
+p, ul {
     text-align: left;
+    line-height: 1.5;
 }
 
 .sub-heading {
