@@ -5,6 +5,10 @@ body {
     margin-bottom: 100px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 img {
     max-width: 100%;
     user-select: none;
