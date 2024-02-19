@@ -26,19 +26,33 @@ body {
 #hero-sub {
     color: rgb(0, 55, 97);
     font-size: 1.8em;
+    display: inline;
 }
 
 #hero-text, #hero-sub {
     width: fit-content;
-    float: left;
+}
+
+#hero-image {
+    object-fit: scale-down;
 }
 
 #hero-image-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: right;
     height: 75vh;
+    position: absolute;
+    top: 100px;
+    right: 100px;
 
     /* The hover animation is in the JavaScript because I need to dynamically change the height of the container. */
+}
+
+@media only screen and (max-width: 1495px) {
+    #hero-image-container {
+        position: static;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
 }
