@@ -172,7 +172,7 @@ input[type="submit"]:hover {
 
 .yes-links a {
     text-decoration: underline;
-    color: blue;
+    color: rgb(0, 190, 171);
 }
 
 .yes-links a:active {
