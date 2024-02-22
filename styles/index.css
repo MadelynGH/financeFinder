@@ -40,6 +40,7 @@ input {
     border: 1px solid rgb(0, 190, 171);
     width: 30vw;
     margin: 1px;
+    background-color: white;
 }
 
 #about {

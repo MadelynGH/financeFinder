@@ -44,7 +44,7 @@ body {
     justify-content: center;
     height: 75vh;
     position: absolute;
-    top: 100px;
+    top: 150px;
     right: 100px;
 
     /* The hover animation is in the JavaScript because I need to dynamically change the height of the container. */

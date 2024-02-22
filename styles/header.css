@@ -54,6 +54,19 @@ input[type="submit"]:hover {
     border: 1px solid rgb(0, 190, 171);
 }
 
+#background-image {
+    position: fixed;
+    z-index: -1;
+    background-image: url("/images/dollar_bill.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 10%;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -150px;
+    opacity: 6%;
+}
+
 #header {
     width: 100vw;
     height: 75px;

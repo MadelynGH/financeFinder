@@ -3,7 +3,8 @@ document.head.innerHTML = document.head.innerHTML + `<link rel="stylesheet" type
 <meta name="description" content="Manage your finances and budget in a smarter way, with Finance Finder." />`;
 
 document.body.innerHTML =
-`<div id="header">
+`<div id="background-image"></div>
+<div id="header">
 <a href="/">
     <h3 id="logo">FINANCE<br>FINDER</h3>
 </a>
