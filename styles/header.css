@@ -3,6 +3,7 @@
 body {
     margin-top: 150px;
     margin-bottom: 100px;
+    height: 100vh;
 }
 
 body {
@@ -78,7 +79,7 @@ input[type="submit"]:hover {
 #logo {
     margin: 0;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 25px;
     font-family: 'MuseoModerno';
     text-transform: lowercase;
     line-height: 1;
